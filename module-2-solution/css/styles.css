@@ -1,3 +1,105 @@
+ /*========== Base Styles ==========*/
+* {
+	box-sizing: border-box;
+}
+
 body { 
-	background-color: #bbb;
+	font-family: sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+	font-size: 125%;
+}
+
+.row {
+	width: 100%;
+}
+
+h1 {
+	margin: 25px 3px 25px 3px;
+	text-align: center;
+	font-size: 175%;
+}
+
+p {
+	padding: 5px;
+	height: 150px;
+	margin: 0;
+	margin-top: 45px;
+	overflow: auto;
+}
+
+div {
+	position: relative;
+}
+
+.col-lg-1, 
+.col-md-1,
+.col-md-2,
+.col-sm-1 { 
+ 	float: left;
+ 	border: 2px solid #000000;
+ 	background-color: #999999;
+ 	margin: 00.50%;
  }
+
+/* Top-right aligned headers within columns */
+.col-lg-1 > div,
+.col-md-1 > div, 
+.col-md-2 > div,
+.col-sm-1 > div {
+	position: absolute;
+	padding: 3px;
+	border: 2px solid #000000;
+	top: -2px;
+	right: -2px;
+	width: 45%;
+	line-height: 32px;
+	text-align: center;
+
+}
+
+#Chicken { 
+	background-color: #ff9999;
+}
+
+#Beef {
+	background-color: #990000;
+	color: #ffffff;
+}
+
+#Sushi {
+	background-color: #ffcc99;
+}
+
+ /*========== Large Devices ==========*/
+ @media (min-width: 992px) {
+ 	.col-lg-1 {
+ 		width: 32.33%;
+	}
+}
+
+ /*========== Medium Devices ==========*/
+ @media (min-width: 768px) and (max-width: 991px) {
+ 	.col-md-1 {
+ 		width: 49.00%;
+ 	}
+ 	.col-md-2 {
+ 		width: 99.00%;
+ 	}
+}
+
+/*========== Small Devices ==========*/
+ @media (max-width: 767px) {
+ 	 .col-sm-1 { 
+ 		width: 99.00%;
+ 	}
+}
+
+
+
+
+
+
+
+
+
