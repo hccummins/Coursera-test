@@ -58,24 +58,22 @@
 #chicken {
 	height: 500px;
 	background-color: #0099cc;
-	overflow: auto;
-
 }
 #beef {
 	height: 500px;
 	background-color: #00ace6;
-	overflow: auto;
+
 }
 #sushi {
 	height: 500px;
 	background-color: #1ac6ff;
-	overflow: auto;
 }
 
 .menu-item-descriptor {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin: 0;
+	height: 426px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow: auto;
 }
 
 .descriptor-nav > a {
